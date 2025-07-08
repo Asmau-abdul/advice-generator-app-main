@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.newShadow:hover{
+    box-shadow: 3px 3px 15px 5px rgb(34,255,144);
+    transition: 0.5s;
+}
