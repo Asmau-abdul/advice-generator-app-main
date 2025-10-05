@@ -1,4 +1,4 @@
-const url = 'https://api.adviceslip.com/advice'
+const url = 'https://api.adviceslip.com/advice?timestamp=${Date.now()}'
 
 
 let adviceId = document.querySelector('.js-advice-id')
