@@ -7,9 +7,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="src/output.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    
   <title>Frontend Mentor | Advice generator app</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -18,18 +18,21 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
+
 <body style='font-family: "Manrope", sans-serif;'>
 
   <div class="bg-[rgb(30,40,55)] w-full h-screen text-xl md:text-4xl">
     <div class="bg-[rgb(51,62,79)] mx-auto text-center container w-[85%] md:w-[70%] lg:w-[55%] p-5 pb-10 rounded-lg absolute top-[25%] left-0 right-0">
-      <h1 class="text-[rgb(34,255,144)] py-5">Advice # <span class="js-advice-id"></span></h1>
-      <q class="text-[rgb(202,228,235)] js-quote-advice"></q>
-      <picture>
-        <source media="(min-width: 1024px)" srcset="images/pattern-divider-desktop.svg">
-        <img class="mx-auto py-10" src="images/pattern-divider-mobile.svg" alt="">
-      </picture>
+      <div>
+        <h1 class="text-[rgb(34,255,144)] py-5">Advice # <span class="js-advice-id"></span></h1>
+        <q class="text-[rgb(202,228,235)] js-quote-advice"></q>
+        <picture>
+          <source media="(min-width: 1024px)" srcset="images/pattern-divider-desktop.svg">
+          <img class="mx-auto py-10" src="images/pattern-divider-mobile.svg" alt="">
+        </picture>
+      </div>
       <div class="w-[13%] sm:w-[8%] md:w-[7%] lg:w-[6%] mx-auto -mb-[60px] shadow-xl">
-        <button class="bg-[rgb(34,255,144)] rounded-full w-full py-2 js-dice-button newShadow"><img class="mx-auto shadow-inner" src="images/icon-dice.svg" alt=""></button>
+        <button class="bg-[rgb(34,255,144)] rounded-full w-full py-2 js-dice-button newShadow"><img class="mx-auto shadow-inner" src="images/icon-dice.svg" alt="Dice icon"></button>
       </div>
     </div>
 
